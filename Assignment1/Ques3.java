@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner; 
 
-public class Ques4 {
+public class Ques3 {
 
 	public static void main(String args[]) 
 	 { 
