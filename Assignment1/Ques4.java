@@ -1,6 +1,6 @@
 import java.io.*; 
 import java.util.*; 
-public class Ques3 { 
+public class Ques4 { 
 	    static boolean checkAnagrams(char str1[], char str2[]) 
 	    {  
 	        int count1[] = new int[256]; 
