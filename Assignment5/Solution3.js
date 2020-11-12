@@ -18,7 +18,7 @@ var brackets_validator = (input_string) =>{
 		{
 			if(stack.length==0)
 			{
-				console.log("Error while matching bracketsss");
+				console.log("Error while matching brackets");
 				return;
 			}
 			var top = stack.pop();
@@ -44,7 +44,7 @@ var brackets_validator = (input_string) =>{
 	}
 	if(stack.length!=0)
 	{
-		console.log("Error while matching bracketsssssssssssssssssssssssssss");
+		console.log("Error while matching brackets");
 		return;
 	}
 	console.log("Brackets matched successfully");
