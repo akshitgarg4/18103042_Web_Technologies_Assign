@@ -1,4 +1,10 @@
 var christmas_tree = (rows) =>{
+	//to validate the correct input
+	if(isNaN(rows) || rows<=0)
+	{
+		console.log("Number of Rows need to be an integer");
+		return;
+	}
 
 	for(var i=0;i<rows;i++)
 	{
